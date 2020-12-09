@@ -39,4 +39,4 @@ Write-Output $numberOfLines.Count
 # $url_link = Read-Host "Enter a youtube URL"
 
 # Just for testing purposes I will comment this out and figure out some file io with powershell
-# youtube-dl.exe -o $youtube_dl_beat_path -x --audio-format mp3 $url_link
+# youtube-dl.exe -o $youtube_dl_beat_path -x --audio-format mp3 $url_link > log.txt
