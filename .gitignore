@@ -1,2 +1,4 @@
+# for things like logs and whatnot
 *.txt
+# testing purposes
 *.csv
