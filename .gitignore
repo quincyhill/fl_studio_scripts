@@ -2,3 +2,8 @@
 *.txt
 # testing purposes
 *.csv
+
+# Pyinstaller stuff
+build
+dist
+*.spec
