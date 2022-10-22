@@ -1,9 +1,13 @@
-# for things like logs and whatnot
-*.txt
-# testing purposes
-*.csv
+env/
 
-# Pyinstaller stuff
-build
-dist
+*.pyc
+__pycache__/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
 *.spec
+*.egg-info/

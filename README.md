@@ -1,38 +1,38 @@
 # FL Studio Music Scripts
 
-## SCRIPTS NOT YET READY
-beat_dl_updating.ps1
-looper_dl.ps1
+This is a command line application that allows for easy management of audio downloads for FL Studio
 
 ## Requirements
-* Create Folders
-	- C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Beats
-	- C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Samples
-	- C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Songs
-	- C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Snippets
 
-* FL Studio
-	- These scripts were built to work with FL Studio 20
+- Create Folders
 
-* Python 3
-	- Download at Official python site, try to avoid MS Store (always)
-	- When installing checkmark Add Python3 to PATH
+  - C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Beats
+  - C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Samples
+  - C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Songs
+  - C:\Program Files\Image-Line\FL Studio 20\Data\Patches\Packs\Downloaded Snippets
 
-* Youtube-dl
-	- Use `pip install youtube-dl`
+- FL Studio
 
-* FFMpeg
-	- Download zip at [link](https://github.com/BtbN/FFmpeg-Builds/releases)
-	- get the latest one that is ffmpeg-N-#######-g##########-win64-gpl.zip to downloads and unzip it
-	- move the unzipped folder to C:\Program Files
-	- rename folder to ffmpeg
-	- add C:\Program Files\ffmpeg\bin to your PATH
+  - These scripts were built to work with FL Studio 20
 
-* Update Powershell Settings for Scripts
-	- Right click on powershell and run as administrator
-	- Enter this command: `Set-ExecutionPolicy RemoteSigned`
-	- This allows scripts to be run from powershell, without it the music scripts wont run
+- Python 3
 
-## Finished
-If you did everyting correctly you should now be able to call commands like `beat_dl` in your terminal
-follow the prompts for things like links and everything should workout
+  - Download at Official python site, try to avoid MS Store (always)
+  - When installing checkmark Add Python3 to PATH
+
+- Youtube-dl
+
+  - Use `pip install youtube-dl`
+
+- FFMpeg
+
+  - Download zip at [link](https://github.com/BtbN/FFmpeg-Builds/releases)
+  - get the latest one that is ffmpeg-N-#######-g##########-win64-gpl.zip to downloads and unzip it
+  - move the unzipped folder to C:\Program Files
+  - rename folder to ffmpeg
+  - add C:\Program Files\ffmpeg\bin to your PATH
+
+- Update Powershell Settings for Scripts
+  - Right click on powershell and run as administrator
+  - Enter this command: `Set-ExecutionPolicy RemoteSigned`
+  - This allows scripts to be run from powershell, without it the music scripts wont run

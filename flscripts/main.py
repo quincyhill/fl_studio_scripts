@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
+"""Main module for now"""
 import sys
 import youtube_dl
 import os
-import pathlib
 from typing import List
 import logging
 import argparse

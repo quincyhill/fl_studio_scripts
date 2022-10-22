@@ -1,0 +1,12 @@
+# Standard
+youtube_dl
+
+# Testing
+pytest
+coverage
+
+# Linting
+mypy
+pylint
+pylint-pytest
+flake8
